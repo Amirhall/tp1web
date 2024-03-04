@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Recherche</title>
+</head >
+<body>
+    <header class="container-fluid align-items-center" >
+        <div id="rowHeader" class="row align-items-center">
+            <div class="col-1"><img class="img-fluid" src="/Images/fia_logo_white.svg" alt=""></div>
+            <div class="col-8"></div>
+            <div class="col-1"><a href="Accueil.html">Accueil</a></div>
+            <div class="col-1"><a href="Favoris.html">Favoris</a></div>
+            <div class="col-1"><a href="Recherche.html">Recherche</a></div>
+        </div>
+    </header>
+    <main class="container-fluid">
+        <div class="title">Liste des voitures homologés</div>
+        <div class="row" id="rowRecherche" style="margin-left: 5%; margin-right: 5%;background-color:rgba(119, 118, 118, 0.644)">
+            <div class="col-8">
+                <div class="row" id="rowRecherche">
+                    <div class="col-4 imageRecherche">
+                        <a href="detail.html"><img class="img-fluid imageRechercheBorder" src="/Images/Voitures/AudiQuattro.jpeg" alt=""></a>
+                        
+                        <div class="divVoitureRecherche">Audi Quatro</div>
+
+                    </div>
+                    <div class="col-4 imageRecherche">
+                        <a href="detail.html"><img class="img-fluid imageRechercheBorder" src="/Images/Voitures/LanciaDelta.jpg" alt=""></a>
+                        <div class="divVoitureRecherche">Lancia Delta</div>
+
+                    </div>
+                    <div class="col-4 imageRecherche">
+                        <a href="detail.html"><img class="img-fluid imageRechercheBorder" src="/Images/Voitures/ToyotaYaris.jpg" alt=""></a>
+                        <div class="divVoitureRecherche">Toyota Yaris GR</div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 imageRecherche" >
+                        <a href="detail.html"><img class="img-fluid imageRechercheBorder" src="/Images/Voitures/MercedesEvo2.jpeg" alt=""></a>
+                        <div class="divVoitureRecherche">Mercedes 190E EVOII</div>
+
+                    </div>
+                    <div class="col-4 imageRecherche"  >
+                        <a href="detail.html"><img class="img-fluid imageRechercheBorder" src="/Images/Voitures/MitsubishiEvo.jpg" alt=""></a>
+                        <div class="divVoitureRecherche">Mitsubishi Evo</div>
+
+                    </div>
+                    <div class="col-4 imageRecherche" >
+                        <a href="detail.html"><img class="img-fluid imageRechercheBorder" src="/Images/Voitures/MercedesCLK.jpg" alt=""></a>
+                        <div class="divVoitureRecherche">Mercedes CLK GTR</div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 imageRecherche">
+                        <a href="detail.html"><img class="img-fluid imageRechercheBorder" src="/Images/Voitures/NissanSkyline.jpg" alt=""></a>
+                        <div class="divVoitureRecherche">Nissan R32 GTR</div>
+
+                    </div>
+                    <div class="col-4 imageRecherche" >
+                        <a href="detail.html"><img class="img-fluid imageRechercheBorder" src="/Images/Voitures/AlphaRomeo.jpg" alt=""></a>
+                        <div class="divVoitureRecherche">Alfa Romeo 33 Stradale</div>
+
+                    </div>
+                    <div class="col-4 imageRecherche" >
+                        <a href="detail.html"><img class="img-fluid imageRechercheBorder" src="/Images/Voitures/Ferrari250GTO.webp" alt=""></a>
+                        <div class="divVoitureRecherche">Ferrari 250 GTO</div>
+
+                    </div>
+                </div>
+            </div>
+        <div class="col-3">
+            <form action="..." method="...">
+                <div class="row"></div>
+                <div class="">Recherche par mots-clés</div>
+                <input type="text" placeholder="Saisir un ou plusieurs mots de mots-clés" class="form-control">
+                <div>Années</div>
+                <input type="text" placeholder="Min" class="form-control"> <input type="text" placeholder="Max" class="form-control">
+                <div>Classes</div>
+                <select id="classes" class="form-control">
+                    <option value="Coupé">Coupé</option>
+                    <option value="Berline">Berline</option>
+                    <option value="Hayon">Hayon</option>
+                    <option value="VUS">VUS</option>
+                </select>
+                <br>
+                <div>
+                    <div>Marques</div>
+                    <label for="Mercedes">Mercedes</label>
+                    <input type="radio" value="Mercedes" id="Mercedes" checked>
+                    <br>
+                    <label for="Ford">Ford</label>
+                    <input type="radio" value="Ford" id="Ford" checked>
+                    <br>
+                    <label for="Lancia">Lancia</label>
+                    <input type="radio" value="Lancia" id="Lancia" checked>
+                    <br>
+                    <label for="Mitsubishi">Mitsubishi</label>
+                    <input type="radio" value="Mitsubishi" id="Mitsubishi" checked>
+                    <br>
+                    <label for="Ferrari">Ferrari</label>
+                    <input type="radio" value="Ferrari" id="Ferrari" checked>
+                    <br>
+                    <label for="Toyota">Toyota</label>
+                    <input type="radio" value="Toyota" id="Toyota" checked>
+                </div>
+                <div class="col-1"></div>
+                
+            </form>
+        </div>
+    </div>
+    </main>
+    <footer><div>Cet page a été créer par Amir Hal Houssine</div></footer>
+
+</body>
+</html>
+
